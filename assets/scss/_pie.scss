@@ -1,0 +1,37 @@
+.pie {
+    background-color: #dae7f7;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 20px;
+    >div {
+        float: left;
+        width: 50%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    span {
+        background-color: #77aaf4;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .left {
+        span {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            -webkit-transform-origin: 100% 50%;
+        }
+    }
+    .right {
+        span {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            -webkit-transform-origin: 0% 50%;
+        }
+    }
+}
