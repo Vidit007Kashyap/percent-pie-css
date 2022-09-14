@@ -23,3 +23,9 @@ $(function() {
         }
     });
 });
+
+$(example).dateDropdowns({
+    submitFormat: "yyyy-mm-dd",
+    daySuffixes: false,
+
+})
